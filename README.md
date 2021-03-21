@@ -6,8 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-https://www.youtube.com/watch?v=RDV3Z1KCBvo
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](https://drive.google.com/file/d/1PU_RwANp60d1iAXHe-FtLGIfFSlsb6x-/view)
 
 ### `npm start`
 
