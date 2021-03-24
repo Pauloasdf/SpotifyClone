@@ -14,10 +14,10 @@ import { useDataLayerValue } from "../../DataLayer/DataLayer.jsx";
 function Footer({ spotify }) {
   const [{ current_track }, dispatch] = useDataLayerValue();
 
-  useEffect(() => {
-    if (current_track) 
-      spotify.Play(current_track.id);
-  }, [current_track]);
+  // useEffect(() => {
+  //   if (current_track) 
+  //     spotify.Play(current_track.id);
+  // }, [current_track]);
 
   return (
     <div className="footer">
