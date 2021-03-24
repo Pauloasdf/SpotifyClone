@@ -10,6 +10,7 @@ import Grid from "@material-ui/core/Grid";
 import VolumeDownIcon from "@material-ui/icons/VolumeDown";
 import PlaylistPlayIcon from "@material-ui/icons/PlaylistPlay";
 import { useDataLayerValue } from "../../DataLayer/DataLayer.jsx";
+import SpotifyPlayer from '../SpotifyPlayer';
 
 function Footer({ spotify }) {
   const [{ current_track }, dispatch] = useDataLayerValue();
@@ -19,9 +20,16 @@ function Footer({ spotify }) {
   //     spotify.Play(current_track.id);
   // }, [current_track]);
 
+  const size = {
+    width: '100%',
+    height: 300,
+  };
+  const view = 'list'; // or 'coverart'
+  const theme = 'black'; // or 'white'
+
   return (
     <div className="footer">
-      {current_track && (
+      {/* {current_track && (
         <>
           <div className="footer_left">
             <img
@@ -60,7 +68,13 @@ function Footer({ spotify }) {
             </Grid>
           </div>
         </>
-      )}
+      )} */}
+      <SpotifyPlayer
+        uri={current_track.uri}
+        size={size}
+        view={view}
+        theme={theme}
+      />
     </div>
   );
 }
