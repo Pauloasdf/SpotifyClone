@@ -4,7 +4,6 @@ import Header from "./Header.jsx";
 import { useDataLayerValue } from "../../DataLayer/DataLayer.jsx";
 import { Favorite, MoreHoriz, PlayCircleFilled } from "@material-ui/icons";
 import SongRow from "./SongRow.jsx";
-import 'animate.css/animate.min.css'
 
 function Body({ spotify }) {
   const [{ current_playlist, current_track }, dispatch] = useDataLayerValue();

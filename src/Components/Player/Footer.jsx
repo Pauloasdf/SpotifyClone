@@ -70,7 +70,7 @@ function Footer({ spotify }) {
         </>
       )} */}
       <SpotifyPlayer
-        uri={current_track.uri}
+        uri={current_track?.uri}
         size={size}
         view={view}
         theme={theme}
