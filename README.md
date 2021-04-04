@@ -8,6 +8,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+![Alt Text](https://drive.google.com/file/d/1PU_RwANp60d1iAXHe-FtLGIfFSlsb6x-/view)
+
 ### `npm start`
 
 Runs the app in the development mode.\
